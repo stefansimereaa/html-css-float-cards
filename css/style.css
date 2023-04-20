@@ -12,25 +12,77 @@ body{
 
 }
 
+span {
+    color: white;
+}
+
 h1{
     color: #e53472;
     margin-bottom: 30px;
 }
 
-h1, .name-team-member{
+h1, .name-team-member {
     font-family: 'fredoka one';
+}
+
+.name-team-member{
+    color: white;
 }
 
 header{
     text-align: center;
 }
 
+img {
+    height: 100px;
+}
+main{
+    margin-top: 40px;
+}
+
 
 /* Utils */
-.email{
+.email {
     color: #4f9eb7;
 }
+
 .container{
     max-width: 60%;
     margin: 60px auto;
+}
+
+.cards-row{
+    padding: 0 1rem;
+}
+
+.colomn{
+    width: calc(100% / 3);
+    float: left;
+    padding: 0 1rem;
+
+}
+.card{
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.information{
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+.information2{
+    float: right;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.information3{
+    float: right;
+    margin-right: 90px;
+    margin-top: 10px;
 }
