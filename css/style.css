@@ -1,0 +1,36 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+    
+}
+
+h1{
+    color: #e53472;
+    margin-bottom: 30px;
+}
+
+h1, .name-team-member{
+    font-family: 'fredoka one';
+}
+
+header{
+    text-align: center;
+}
+
+
+/* Utils */
+.email{
+    color: #4f9eb7;
+}
+.container{
+    max-width: 60%;
+    margin: 60px auto;
+}
